@@ -186,12 +186,12 @@ html, body {
     margin-top: -56px;
 }
 
-.odcast .row .second:before {
+.odcast .second:before {
     content: " ";
     display: block;
     position: relative;
-    height: 112px;
-    margin-top: -112px;
+    height: 56px;
+    margin-top: -56px;
 }
 
 .odcast .row .third:before {
