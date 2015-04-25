@@ -169,8 +169,7 @@ html, body {
 }
 
 .odcast .container .tit {
-    position: relative;
-    left: -2%;
+    position: absolute;
 }
 
 .odcast .row iframe {
