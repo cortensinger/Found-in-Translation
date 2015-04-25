@@ -66,7 +66,7 @@
     border-right: 1px solid #8ebbeb;
     border-bottom: 1px solid #8ebbeb;
     position: relative;
-    top: 6;
+    top: 8;
     width: 160px;
 }
 
@@ -84,12 +84,12 @@
 .nav .container img {
     position: fixed;
     left: 10;
-    top: 1;
+    top: 0;
 }
 
 .jumbotron {
     background-image:url('http://topwalls.net/wp-content/uploads/2012/08/Torres-del-Paine-Chile.jpg');
-    height: 95%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid #566341;
@@ -98,6 +98,7 @@
 .jumbotron .container {
     position: relative;
     top:100px;
+    height: 100%;
 }
 
 .jumbotron h1 {
