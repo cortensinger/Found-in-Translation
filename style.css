@@ -178,11 +178,10 @@ html, body {
     width: 80%;
 }
 
-.odcast .row .first:before {
+.odcast .row .first {
     display: block;
-    content: " ";
-    margin-top: 56px;
-    height: 56px;
+    position: relative;
+    top: -56px;
     visibility: hidden;
 }
 
