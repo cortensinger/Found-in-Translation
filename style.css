@@ -178,7 +178,7 @@ html, body {
     width: 80%;
 }
 
-.odcast .row .first:before {
+.odcast .row .first:before .second:before {
     content: " ";
     display: block;
     position: relative;
@@ -186,13 +186,6 @@ html, body {
     margin-top: -56px;
 }
 
-.odcast .row .second:before {
-    content: " ";
-    display: block;
-    position: relative;
-    margin-top: -56px;
-    height: 56px;
-}
 
 .odcast .row .third:before {
     content: " ";
