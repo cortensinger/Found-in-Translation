@@ -190,8 +190,8 @@ html, body {
     content: " ";
     display: block;
     position: relative;
-    height: 56px;
-    margin-top: -56px;
+    height: 112px;
+    margin-top: -112px;
 }
 
 .odcast .row .third:before {
