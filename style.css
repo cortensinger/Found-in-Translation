@@ -178,6 +178,14 @@ html, body {
     width: 80%;
 }
 
+.odcast .row .first:before {
+    display: block;
+    content: " ";
+    margin-top: 56px;
+    height: 56px;
+    visibility: hidden;
+}
+
 .odcast img {
     border: 1px solid #393c3d;
 }
