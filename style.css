@@ -37,7 +37,7 @@
 .nav .container .pull-right {
     position: fixed;
     right: 0;
-    top: 0;
+    top: 10%;
 }
 
 .nav .container {
@@ -48,8 +48,8 @@
 
 .nav .container .pull-left {
     position: fixed;
-    left: 50%;
-    top: 0;
+    left: 5%;
+    top: 30%;
 }
 
 .nav li {
@@ -67,7 +67,7 @@
     border-right: 1px solid #8ebbeb;
     border-bottom: 1px solid #8ebbeb;
     position: relative;
-    top: 7;
+    top: 0;
     width: 160px;
 }
 
@@ -85,7 +85,7 @@
 .nav .container img {
     position: fixed;
     left: 10;
-    top: 2;
+    top: 1;
 }
 
 .jumbotron {
