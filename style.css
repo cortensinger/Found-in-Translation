@@ -37,7 +37,7 @@
 .nav .container .pull-right {
     position: fixed;
     right: 0;
-    top: 5%;
+    top: 1%;
 }
 
 .nav .container {
@@ -47,8 +47,8 @@
 
 .nav .container .pull-left {
     position: fixed;
-    left: 10%;
-    top: 2%;
+    left: 8%;
+    top: 1%;
 }
 
 .nav li {
