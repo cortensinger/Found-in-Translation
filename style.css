@@ -178,7 +178,7 @@ html, body {
     width: 80%;
 }
 
-.odcast .row .first:before {
+.odcast .row .first:before, .second:before, .third:before, .fourth:before {
     content: " ";
     display: block;
     position: relative;
