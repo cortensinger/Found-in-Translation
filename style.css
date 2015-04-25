@@ -72,7 +72,7 @@ html, body {
     border-right: 1px solid #8ebbeb;
     border-bottom: 1px solid #8ebbeb;
     position: relative;
-    top: 8;
+    top: 12;
     width: 160px;
 }
 
@@ -169,7 +169,8 @@ html, body {
 }
 
 .odcast .container .tit {
-    position: absolute;
+    position: relative;
+    left: -2%;
 }
 
 .odcast .row iframe {
