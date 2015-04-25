@@ -186,7 +186,7 @@ html, body {
     margin-top: -56px;
 }
 
-.odcast .row .second:before {
+.odcast .row .second::before {
     content: " ";
     display: block;
     position: relative;
