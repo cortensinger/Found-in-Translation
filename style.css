@@ -190,6 +190,7 @@ html, body {
     content: " ";
     display: block;
     position: relative;
+    padding-top: 56px;
     margin-top: -56px;
 }
 
