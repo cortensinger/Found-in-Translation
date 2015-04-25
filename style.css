@@ -182,7 +182,6 @@ html, body {
     display: block;
     position: relative;
     top: -56px;
-    visibility: hidden;
 }
 
 .odcast img {
