@@ -178,30 +178,7 @@ html, body {
     width: 80%;
 }
 
-.odcast .row .first:before {
-    content: " ";
-    display: block;
-    position: relative;
-    height: 56px;
-    margin-top: -56px;
-}
-
-.odcast .row .second:before {
-    content: " ";
-    display: block;
-    position: relative;
-    padding-top: 56px;
-    margin-top: -56px;
-}
-
-.odcast .row .third:before {
-    content: " ";
-    display: block;
-    position: relative;
-    height: 56px;
-}
-
-.odcast .row .fourth:before {
+.odcast .row:before {
     content: " ";
     display: block;
     position: relative;
