@@ -43,11 +43,12 @@
 .nav .container {
     padding: 0px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .nav .container .pull-left {
     position: fixed;
-    left: 68;
+    left: 10%;
     top: 9;
 }
 
