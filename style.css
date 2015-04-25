@@ -186,20 +186,19 @@ html, body {
     margin-top: -56px;
 }
 
-.odcast .row .second::before {
+.odcast .row .second:before {
     content: " ";
     display: block;
     position: relative;
-    height: 112px;
-    margin-top: -112px;
+    margin-top: -56px;
 }
 
 .odcast .row .third:before {
     content: " ";
     display: block;
     position: relative;
-    height: 200px;
-    margin-top: -200px;
+    height: 56px;
+    margin-top: -56px;
 }
 
 .odcast .row .fourth:before {
