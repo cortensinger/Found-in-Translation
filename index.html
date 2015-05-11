@@ -12,6 +12,11 @@
     <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet" type="text/css">
 
+<!-- Carousel stuff --> 
+    <link rel="stylesheet" href="http://flexslider.woothemes.com/css/demo.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="http://flexslider.woothemes.com/css/flexslider.css" type="text/css" media="screen">
+
+
 
   </head>
 
@@ -92,36 +97,93 @@
                     <p> First Impressions in Chile </p>
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202358252&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                     <p> More descriptions to come, like extra info (links // photos) </p>
-		    <div id="gallery1" class="gallery">
-		      <div class="thumbs">
-			<div class="carousel-wrapper">
-			  <div class="photo-nav">
-			    <span class="prev-photo">Previous</span>
-			    <span class="next-photo">Next</span>
-			  </div>
-			  <div class="carousel">
-			    <ul>
-			      <li>
-				<a href="#">
-				  <img src="http://www.langology.org/wp-content/uploads/2011/03/hello1.jpg"  alt="image01" data-description="Some description" />
-				</a>
-			      </li>
-			      <li>
-				<a href="#">
-				  <img src="http://betanews.com/wp-content/uploads/2014/02/hello-600x600.jpg"  alt="image02" data-description="Some description" />
-				</a>
-			      </li>
-			      <li>
-				<a href="#">
-				  <img src="http://fc01.deviantart.net/fs70/i/2013/080/d/9/hello_time___by_toxicpineapple-d5ytxhn.png"  alt="image03" data-description="Some description" />
-				</a>
-			      </li>
-			    </ul>
-			  </div>
-			</div>
-			<!-- End Elastislide Carousel Thumbnail Viewer -->
-		      </div><!-- rg-thumbs -->
-		    </div><!-- rg-gallery -->
+		    
+
+		    <section class="slider">
+		      <div id="slider" class="flexslider">
+			<ul class="slides">
+			  <li>
+  	    		    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		  </li>
+			  <li>
+  	    		    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		  </li>
+			  <li>
+  	    		    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		</li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		  </li>
+			</ul>
+		      </div>
+		      <div id="carousel" class="flexslider">
+			<ul class="slides">
+			  <li>
+  	    		    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		  </li>
+  	    		<li>
+  	    		  <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		</li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		  </li>
+			  <li>
+  	    		    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		  </li>
+			  <li>
+  	    	    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		  </li>
+  	    		  <li>
+  	    		    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		  </li>
+			</ul>
+		      </div>
+		    </section>
+
+
+
 
                     </div>
                 </div>
@@ -184,5 +246,6 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="app.js"></script>
+    <script defer src="http://flexslider.woothemes.com/js/jquery.flexslider.js"></script>
   </body>
 </html>
