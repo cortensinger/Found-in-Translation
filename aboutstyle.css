@@ -108,7 +108,7 @@ html, body {
 
 .jumbotron h1, h2, h3 {
     color: #ffffff;
-    font-size: 48px;
+    font-size: 50px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -116,43 +116,20 @@ html, body {
 }
 
 .jumbotron h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
-.jumbotron h2 {
-    font-size: 24px;
+.jumbotron h3 {
+    font-size: 25px;
 }
 
 .jumbotron p {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
-    color: #000000;
+    color: #ffffff;
     padding: 3px;
     cursor: normal;
     font-weight: bold;
     text-shadow: none;
     pointer-events: none;
-}
-
-.learn-more {
-    background-color: #f7f7f7;
-    text-align: center;
-}
-
-.learn-more h3 {
-    font-family: 'Shift', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    pointer-events: none;
-}
-
-.learn-more p, a {
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.learn-more a {
-    color: #00b0ff;
 }
