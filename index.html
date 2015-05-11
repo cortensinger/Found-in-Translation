@@ -1,15 +1,36 @@
 <!doctype html>
 <html>
   <head>
+<!-- Style stuff -->
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     
-    
+<!-- Font stuff --> 
     <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet" type="text/css">
+
+<!-- Carousel stuff -->
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+      <div class="rg-image-wrapper">
+	{{if itemsCount > 1}}
+	<div class="rg-image-nav">
+	  <a href="#" class="rg-image-nav-prev">Previous Image</a>
+	  <a href="#" class="rg-image-nav-next">Next Image</a>
+	</div>
+	{{/if}}
+	<div class="rg-image"></div>
+	<div class="rg-loading"></div>
+	<div class="rg-caption-wrapper">
+	  <div class="rg-caption" style="display:none;">
+	    <p></p>
+	  </div>
+	</div>
+      </div>
+    </script>
+
   </head>
 
   <body>
@@ -65,6 +86,146 @@
         <p>Un Podcast Para Los Curiosos</p>
       </div>
     </div> 
+
+
+    <div id="rg-gallery1" class="rg-gallery1">
+      <div class="rg-thumbs1">
+	<!-- Elastislide Carousel Thumbnail Viewer -->
+	<div class="es-carousel-wrapper">
+	  <div class="es-nav">
+	    <span class="es-nav-prev">Previous</span>
+	    <span class="es-nav-next">Next</span>
+	  </div>
+	  <div class="es-carousel">
+	    <ul>
+	      <li>
+		<a href="#">
+		  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+		</a>
+	      </li>
+	      <li>...</li>
+	    </ul>
+	  </div>
+	</div>
+	<!-- End Elastislide Carousel Thumbnail Viewer -->
+      </div><!-- rg-thumbs -->
+    </div><!-- rg-gallery -->
+
+    <div id="rg-gallery2" class="rg-gallery2">
+      <div class="rg-thumbs2">
+	<!-- Elastislide Carousel Thumbnail Viewer -->
+	<div class="es-carousel-wrapper">
+	  <div class="es-nav">
+	    <span class="es-nav-prev">Previous</span>
+	    <span class="es-nav-next">Next</span>
+	  </div>
+	  <div class="es-carousel">
+	    <ul>
+	      <li>
+		<a href="#">
+		  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+		</a>
+	      </li>
+	      <li>...</li>
+	    </ul>
+	  </div>
+	</div>
+	<!-- End Elastislide Carousel Thumbnail Viewer -->
+      </div><!-- rg-thumbs -->
+    </div><!-- rg-gallery -->
+
+    <div id="rg-gallery3" class="rg-gallery3">
+      <div class="rg-thumbs3">
+	<!-- Elastislide Carousel Thumbnail Viewer -->
+	<div class="es-carousel-wrapper">
+	  <div class="es-nav">
+	    <span class="es-nav-prev">Previous</span>
+	    <span class="es-nav-next">Next</span>
+	  </div>
+	  <div class="es-carousel">
+	    <ul>
+	      <li>
+		<a href="#">
+		  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+		</a>
+	      </li>
+	      <li>...</li>
+	    </ul>
+	  </div>
+	</div>
+	<!-- End Elastislide Carousel Thumbnail Viewer -->
+      </div><!-- rg-thumbs -->
+    </div><!-- rg-gallery -->
+
+    <div id="rg-gallery4" class="rg-gallery4">
+      <div class="rg-thumbs4">
+	<!-- Elastislide Carousel Thumbnail Viewer -->
+	<div class="es-carousel-wrapper">
+	  <div class="es-nav">
+	    <span class="es-nav-prev">Previous</span>
+	    <span class="es-nav-next">Next</span>
+	  </div>
+	  <div class="es-carousel">
+	    <ul>
+	      <li>
+		<a href="#">
+		  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+		</a>
+	      </li>
+	      <li>...</li>
+	    </ul>
+	  </div>
+	</div>
+	<!-- End Elastislide Carousel Thumbnail Viewer -->
+      </div><!-- rg-thumbs -->
+    </div><!-- rg-gallery -->
+
+    <div id="rg-gallery5" class="rg-gallery5">
+      <div class="rg-thumbs5">
+	<!-- Elastislide Carousel Thumbnail Viewer -->
+	<div class="es-carousel-wrapper">
+	  <div class="es-nav">
+	    <span class="es-nav-prev">Previous</span>
+	    <span class="es-nav-next">Next</span>
+	  </div>
+	  <div class="es-carousel">
+	    <ul>
+	      <li>
+		<a href="#">
+		  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+		</a>
+	      </li>
+	      <li>...</li>
+	    </ul>
+	  </div>
+	</div>
+	<!-- End Elastislide Carousel Thumbnail Viewer -->
+      </div><!-- rg-thumbs -->
+    </div><!-- rg-gallery -->
+
+    <div id="rg-gallery6" class="rg-gallery6">
+      <div class="rg-thumbs6">
+	<!-- Elastislide Carousel Thumbnail Viewer -->
+	<div class="es-carousel-wrapper">
+	  <div class="es-nav">
+	    <span class="es-nav-prev">Previous</span>
+	    <span class="es-nav-next">Next</span>
+	  </div>
+	  <div class="es-carousel">
+	    <ul>
+	      <li>
+		<a href="#">
+		  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+		</a>
+	      </li>
+	      <li>...</li>
+	    </ul>
+	  </div>
+	</div>
+	<!-- End Elastislide Carousel Thumbnail Viewer -->
+      </div><!-- rg-thumbs -->
+    </div><!-- rg-gallery -->
+    
 
     <div class="odcast">
         <div class="container">
