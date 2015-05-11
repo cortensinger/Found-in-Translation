@@ -1,0 +1,158 @@
+html, body { 
+    height: 100%;
+    width: 100%; 
+    margin: 0px; 
+}
+
+.nav {
+    background-color: #000000;
+    border-bottom: 1px solid #8ebbeb;
+    height: 56px;
+    position: fixed;
+    z-index: 420;
+    width: 100%;
+}
+
+.nav a, p {
+    color: #2a83fa;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.nav p {
+    padding-left: 50px;
+}
+
+.nav p:hover {
+    color: #2f8e20 !important;
+}
+
+.nav p:active {
+    color: #2f8e20;
+}
+
+.nav a:hover {
+    color: #2f8e20;
+}
+
+.nav .container .pull-right {
+    position: fixed;
+    right: 0;
+    top: 1.5%;
+}
+
+.nav .container {
+    padding: 0px;
+    margin: 0;
+}
+
+.nav .container .pull-left {
+    position: fixed;
+    left: 7%;
+    top: 1.5%;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav .container .pull-right .drop {
+    display: none;
+    position: fixed;
+}
+
+.nav .container .pull-right .drop .d1, .d2, .d3 {
+    background: rgba(0, 0, 0, .8);
+    border-left: 1px solid #8ebbeb;
+    border-right: 1px solid #8ebbeb;
+    border-bottom: 1px solid #8ebbeb;
+    position: relative;
+    top: 6px;
+    width: 160px;
+}
+
+.nav .container .pull-right .drop .d1 a, .d2 a, .d3 a {
+    font-size: 14px;
+    padding-right: 0px;
+}
+
+
+
+.nav .container .pull-right .drop .d3 {
+    width: 143px;
+}
+
+.nav .container img {
+    position: fixed;
+    left: 10;
+    top: 1;
+}
+
+
+.jumbotron {
+    background-image:url('http://www.wallpapersonview.com/wallpapers/4/landscape_wonderful_nature_quality_sunset_background_picture-60.jpg');
+    background-repeat:no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:100px;
+}
+
+.jumbotron h1, h2, h3 {
+    color: #ffffff;
+    font-size: 48px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.jumbotron h2 {
+    font-size: 30px;
+}
+
+.jumbotron h2 {
+    font-size: 24px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    padding: 3px;
+    cursor: normal;
+    font-weight: bold;
+    text-shadow: none;
+    pointer-events: none;
+}
+
+.learn-more {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.learn-more h3 {
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.learn-more p, a {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.learn-more a {
+    color: #00b0ff;
+}
