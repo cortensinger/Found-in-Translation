@@ -12,24 +12,6 @@
     <link href="http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet" type="text/css">
 
-<!-- Carousel stuff -->
-    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
-      <div class="rg-image-wrapper">
-	{{if itemsCount > 1}}
-	<div class="rg-image-nav">
-	  <a href="#" class="rg-image-nav-prev">Previous Image</a>
-	  <a href="#" class="rg-image-nav-next">Next Image</a>
-	</div>
-	{{/if}}
-	<div class="rg-image"></div>
-	<div class="rg-loading"></div>
-	<div class="rg-caption-wrapper">
-	  <div class="rg-caption" style="display:none;">
-	    <p></p>
-	  </div>
-	</div>
-      </div>
-    </script>
 
   </head>
 
@@ -110,22 +92,30 @@
                     <p> First Impressions in Chile </p>
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202358252&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                     <p> More descriptions to come, like extra info (links // photos) </p>
-		    <div id="rg-gallery" class="rg-gallery">
-		      <div class="rg-thumbs">
-			<!-- Elastislide Carousel Thumbnail Viewer -->
-			<div class="es-carousel-wrapper">
-			  <div class="es-nav">
-			    <span class="es-nav-prev">Previous</span>
-			    <span class="es-nav-next">Next</span>
+		    <div id="gallery1" class="gallery">
+		      <div class="thumbs">
+			<div class="carousel-wrapper">
+			  <div class="photo-nav">
+			    <span class="prev-photo">Previous</span>
+			    <span class="next-photo">Next</span>
 			  </div>
-			  <div class="es-carousel">
+			  <div class="carousel">
 			    <ul>
 			      <li>
 				<a href="#">
-				  <img src="images/thumbs/1.jpg" data-large="images/1.jpg" alt="image01" data-description="Some description" />
+				  <img src="http://www.langology.org/wp-content/uploads/2011/03/hello1.jpg"  alt="image01" data-description="Some description" />
 				</a>
 			      </li>
-			      <li>...</li>
+			      <li>
+				<a href="#">
+				  <img src="http://betanews.com/wp-content/uploads/2014/02/hello-600x600.jpg"  alt="image02" data-description="Some description" />
+				</a>
+			      </li>
+			      <li>
+				<a href="#">
+				  <img src="http://fc01.deviantart.net/fs70/i/2013/080/d/9/hello_time___by_toxicpineapple-d5ytxhn.png"  alt="image03" data-description="Some description" />
+				</a>
+			      </li>
 			    </ul>
 			  </div>
 			</div>
