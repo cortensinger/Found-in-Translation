@@ -1,6 +1,6 @@
 
 body {
-     background-image: url('http://i.imgur.com/E9cgJwr.jpg') !important;
+     background-image: url('http://i.imgur.com/yUYCMlE.jpg') !important;
      background-repeat: no-repeat;
      background-size: cover; 
 -webkit-background-size: cover;
@@ -130,7 +130,6 @@ body {
     cursor: normal;
     text-shadow: none;
     pointer-events: none;
-    text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -150,7 +149,6 @@ body {
     cursor: normal;
     text-shadow: none;
     pointer-events: none;
-    text-align: center;
     padding-bottom: 10px;
 }
 
