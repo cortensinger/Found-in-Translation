@@ -197,7 +197,7 @@ html, body {
 .learn-more {
     background-color: #f7f7f7;
     text-align: center;
-    height: 5%;
+    height: 80px;
 }
 
 .learn-more p, a {
