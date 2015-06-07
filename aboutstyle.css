@@ -99,6 +99,7 @@ body {
 
 
 .words h2, h3 {
+    top: 30px;
     font-size: 35px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
