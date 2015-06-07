@@ -1,7 +1,3 @@
-body {
-    background-image: url("http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg");
-}
-
 html, body { 
     height: 100%;
     width: 100%; 
@@ -110,7 +106,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     pointer-events: none;
-    text-allign: center;
+    text-align: center;
 }
 
 .words h2, h3 {
@@ -120,7 +116,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     pointer-events: none;
-    text-allign: center;
+    text-align: center;
 }
 
 .words h3 {
@@ -136,4 +132,9 @@ html, body {
     font-weight: bold;
     text-shadow: none;
     pointer-events: none;
+    text-align: center;
+}
+
+body {
+    background-image: url("http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg");
 }
