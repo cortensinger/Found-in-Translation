@@ -218,7 +218,47 @@ html, body {
     overflow: auto;
 }
 
-.odcast .slider {
+.odcast .slider1 {
+    display: block;
+    float: left;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+}
+.odcast .slider2 {
+    display: block;
+    float: left;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+}
+.odcast .slider3 {
+    display: block;
+    float: left;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+}
+.odcast .slider4 {
+    display: block;
+    float: left;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+}
+.odcast .slider5 {
+    display: block;
+    float: left;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+    position: absolute;
+}
+.odcast .slider6 {
     display: block;
     float: left;
     height: 600px;
