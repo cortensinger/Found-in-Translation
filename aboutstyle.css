@@ -1,6 +1,6 @@
 
 body {
-     background-image:url('http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg');
+     background-image:url('http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg') !important;
      background-repeat: no-repeat;
 }
 
@@ -152,4 +152,8 @@ body {
     text-shadow: none;
     pointer-events: none;
     text-align: center;
+}
+
+.us .col-md-6 {
+     border-bottom: 1px solid #000000;
 }
