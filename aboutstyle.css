@@ -97,9 +97,12 @@ body {
     top: 1;
 }
 
+.words {
+    top: 30px;
+    position: relative:
+}
 
 .words h2, h3 {
-    top: 30px;
     font-size: 35px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
