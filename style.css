@@ -195,6 +195,8 @@ html, body {
 }
 
 .odcast .wrapper {
+    padding-top: 20px;
+    padding-bottom: 15px;
     display: block;
     height: 600px;
     width: 800px;
