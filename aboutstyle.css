@@ -112,6 +112,7 @@ body {
 
 .words h1, h3 {
     font-size: 48px;
+    font-weight: 200;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     pointer-events: none;
@@ -126,7 +127,7 @@ body {
 .words .idea p {
     font-size: 16px;
     text-transform: lowercase;
-    font-weight: bold;
+    font-weight: 200;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     padding: 3px;
@@ -147,6 +148,7 @@ body {
 .us .col-md-5 p {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     color: #ffffff;
     padding: 3px;
     cursor: normal;
