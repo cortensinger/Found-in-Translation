@@ -219,7 +219,7 @@ html, body {
     position: absolute;
 }
 
-.odcast .controllerl {
+.odcast #prev1 {
     background-image: url('../larrow.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -231,7 +231,7 @@ html, body {
     z-index: 99;
 }
 
-.odcast .controllerr {
+.odcast #next1 {
     background-image: url('../rarrow.png');
     background-repeat: no-repeat;
     background-position: center center;
