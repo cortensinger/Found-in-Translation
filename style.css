@@ -193,3 +193,7 @@ html, body {
 .odcast img {
     border: 1px solid #393c3d;
 }
+
+.nothing {
+    height: 38px;
+}
