@@ -1,3 +1,19 @@
+Skip to content
+This repository  
+Explore
+Gist
+Blog
+Help
+@cortensinger cortensinger
+ 
+ Unwatch 1
+  Star 0
+  Fork 0
+cortensinger/cortensinger.github.io
+ tree: 9def7c8d72  cortensinger.github.io/style.css
+@cortensingercortensinger 38 minutes ago Image slider
+1 contributor
+RawBlameHistory    248 lines (210 sloc)  4.189 kB
 html, body { 
     height: 100%;
     width: 100%; 
@@ -194,14 +210,14 @@ html, body {
     border: 1px solid #393c3d;
 }
 
-.odcast .wrapper {
+.odcast .wrapper1 {
     display: block;
     height: 600px;
     width: 800px;
     margin: auto;
 }
 
-.odcast .container {
+.odcast .container1 {
     background-color: #d3d3d3;
     display: block;
     float: left;
@@ -210,7 +226,7 @@ html, body {
     overflow: auto;
 }
 
-.odcast .slider {
+.odcast .slider1 {
     display: block;
     float: left;
     height: 600px;
@@ -246,3 +262,5 @@ html, body {
 .nothing {
     height: 30px;
 }
+Status API Training Shop Blog About
+© 2015 GitHub, Inc. Terms Privacy Security Contact
