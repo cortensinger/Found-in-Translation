@@ -124,7 +124,9 @@ body {
 }
 
 .words .idea p {
-    font-size: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     padding: 3px;
