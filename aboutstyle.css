@@ -99,6 +99,7 @@ body {
 
 
 .jumbotron {
+    background-color: transparent;
     position: relative;
     top-margin: auto;
 }
