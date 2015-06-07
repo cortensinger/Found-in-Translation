@@ -1,5 +1,4 @@
 html, body { 
-    background-image: url("http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg");
     height: 100%;
     width: 100%; 
     margin: 0px; 
@@ -96,6 +95,7 @@ html, body {
 
 
 .jumbotron .container {
+    background-image: url("http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg");
     position: relative;
     top:40px;
 }
@@ -134,6 +134,10 @@ html, body {
     text-shadow: none;
     pointer-events: none;
     text-align: center;
+}
+
+.idea {
+    border-bottom: 1px solid #000000;
 }
 
 .us .col-md-6 p {
