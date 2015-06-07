@@ -1,4 +1,5 @@
 html, body { 
+    background-image: url("http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg");
     height: 100%;
     width: 100%; 
     margin: 0px; 
@@ -123,7 +124,7 @@ html, body {
     font-size: 25px;
 }
 
-.words p {
+.words .idea p {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
@@ -135,6 +136,14 @@ html, body {
     text-align: center;
 }
 
-body {
-    background-image: url("http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg");
+.us .col-md-6 p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    padding: 3px;
+    cursor: normal;
+    font-weight: bold;
+    text-shadow: none;
+    pointer-events: none;
+    text-align: center;
 }
