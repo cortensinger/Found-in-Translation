@@ -170,10 +170,12 @@ body {
 
 .nothing {
     height: 60px;
-    top-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
 }
 
 .nothing1 {
     width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid #000000;
 }
