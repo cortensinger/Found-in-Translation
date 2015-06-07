@@ -112,12 +112,12 @@ body {
     font-size: 48px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     pointer-events: none;
     text-align: center;
 }
 
 .words h3 {
-    font-weight: bold;
     text-decoration: none;
     font-size: 25px;
 }
@@ -149,11 +149,10 @@ body {
     color: #ffffff;
     padding: 3px;
     cursor: normal;
-    font-weight: bold;
     text-shadow: none;
     pointer-events: none;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .us .col-md-5 {
