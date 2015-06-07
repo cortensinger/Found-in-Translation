@@ -2,6 +2,11 @@
 body {
      background-image:url('http://feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg') !important;
      background-repeat: no-repeat;
+     background-size: cover; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+}
 }
 
 .nav {
