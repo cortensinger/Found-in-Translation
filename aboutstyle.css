@@ -112,9 +112,9 @@ body {
 
 .words h1, h3 {
     font-size: 48px;
-    font-weight: 200;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
+    font-weight: 200;
     pointer-events: none;
     text-align: center;
 }
@@ -126,7 +126,7 @@ body {
 
 .words .idea p {
     font-size: 16px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     font-weight: 200;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
