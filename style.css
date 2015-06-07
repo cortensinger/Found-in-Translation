@@ -193,20 +193,3 @@ html, body {
 .odcast img {
     border: 1px solid #393c3d;
 }
-
-.learn-more {
-    background-color: #f7f7f7;
-    text-align: center;
-    height: 80px;
-}
-
-.learn-more p, a {
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.learn-more a {
-    color: #00b0ff;
-}
