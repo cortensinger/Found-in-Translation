@@ -180,6 +180,7 @@ html, body {
 .odcast .row iframe {
     border: 1px solid #393c3d;
     width: 80%;
+    padding-bottom: 20px;
 }
 
 .odcast .row:before {
