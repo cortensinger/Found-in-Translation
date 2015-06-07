@@ -104,6 +104,10 @@ body {
     padding-top: 60px;
 }
 
+.words h1 {
+    padding-top: 15px;
+}
+
 .words h1, h3 {
     font-size: 48px;
     color: #ffffff;
@@ -129,7 +133,7 @@ body {
     pointer-events: none;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .idea {
