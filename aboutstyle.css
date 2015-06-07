@@ -101,7 +101,7 @@ body {
 .jumbotron {
     background-color: transparent;
     position: relative;
-    top: 56px;
+    padding-top: 56px;
 }
 
 .words h1, h3 {
