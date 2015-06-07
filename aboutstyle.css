@@ -139,7 +139,7 @@ html, body {
 .idea {
     border-bottom: 1px solid #000000;
     width: 70%;
-    position: center;
+    left: 15%;
 }
 
 .us .col-md-6 p {
