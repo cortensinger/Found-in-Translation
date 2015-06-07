@@ -196,8 +196,8 @@ html, body {
 
 .odcast .wrapper1 {
     display: block;
-    height: 720px;
-    width: 960px;
+    height: 600px;
+    width: 800px;
     margin: auto;
 }
 
@@ -205,39 +205,39 @@ html, body {
     background-color: #000000;
     display: block;
     float: left;
-    height: 720px;
-    width: 960px;
+    height: 600px;
+    width: 800px;
     overflow: auto;
 }
 
 .odcast .slider1 {
     display: block;
     float: left;
-    height: 720px;
-    width: 960px;
+    height: 600px;
+    width: 800px;
     overflow: hidden;
     position: absolute;
 }
 
 .odcast #prev1 {
-    background-image: url('');
+    background-image: url('../larrow.png');
     background-repeat: no-repeat;
     background-position: center center;
     display: block;
     float: left;
-    height: 720px;
+    height: 600px;
     width: 100px;
     position: relative;
     z-index: 99;
 }
 
 .odcast #next1 {
-    background-image: url('');
+    background-image: url('../rarrow.png');
     background-repeat: no-repeat;
     background-position: center center;
     display: block;
     float: right;
-    height: 720px;
+    height: 600px;
     width: 100px;
     position: relative;
     z-index: 99;
