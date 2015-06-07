@@ -113,7 +113,6 @@ body {
     font-size: 48px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     pointer-events: none;
     text-align: center;
 }
@@ -129,7 +128,6 @@ body {
     color: #ffffff;
     padding: 3px;
     cursor: normal;
-    font-weight: bold;
     text-shadow: none;
     pointer-events: none;
     text-align: center;
