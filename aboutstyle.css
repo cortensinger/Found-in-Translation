@@ -99,6 +99,7 @@ body {
 
 
 .jumbotron .container {
+    background: rgba(0, 0, 0, 0);
     position: relative;
     top: 30px;
 }
@@ -146,8 +147,8 @@ body {
     margin-right: auto;
 }
 
-.us .col-md-6 p {
-    font-size: 18px;
+.us .col-md-5 p {
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     padding: 3px;
@@ -158,7 +159,7 @@ body {
     text-align: center;
 }
 
-.us .col-md-6 {
+.us .col-md-5 {
      border-bottom: 1px solid #000000;
 }
 
