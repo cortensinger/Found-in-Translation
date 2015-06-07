@@ -1,6 +1,6 @@
 
 body {
-     background-image: url('http://i.imgur.com/E9cgJwr.jpg') !important;
+     background-image: url('../pattern.png') !important;
      background-repeat: no-repeat;
      background-size: cover; 
 -webkit-background-size: cover;
