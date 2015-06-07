@@ -101,19 +101,19 @@ body {
 .jumbotron {
     background-color: transparent;
     position: relative;
-    padding-top: 56px;
+    padding-top: 60px;
 }
 
 .words h1, h3 {
     font-size: 48px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
     pointer-events: none;
     text-align: center;
 }
 
 .words h3 {
+    font-weight: bold;
     text-decoration: none;
     font-size: 25px;
 }
@@ -129,6 +129,7 @@ body {
     pointer-events: none;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .idea {
