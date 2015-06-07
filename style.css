@@ -110,14 +110,14 @@ html, body {
     color: #000000;
     font-size: 48px;
     text-decoration: none;
-    font-family: 'Waiting for the Sunrise', cursive;
+    font-family: 'Special Elite', cursive;
     font-weight: bold;
     pointer-events: none;
 }
 
 .jumbotron p {
     font-size: 18px;
-    font-family: 'Walter Turncoat', cursive;
+    font-family: 'Raleway', sans-serif;
     color: #000000;
     padding: 3px;
     cursor: normal;
