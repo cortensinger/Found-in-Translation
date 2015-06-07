@@ -159,7 +159,8 @@ body {
      border-bottom: 1px solid #000000;
 }
 
-.us .col-md-5 img{ 
+.us .col-md-5 img.face {
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
