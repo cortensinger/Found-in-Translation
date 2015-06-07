@@ -1,6 +1,6 @@
 
 body {
-     background-image: url('http://i.imgur.com/yUYCMlE.jpg') !important;
+     background-image: url('http://i.imgur.com/E9cgJwr.jpg') !important;
      background-repeat: no-repeat;
      background-size: cover; 
 -webkit-background-size: cover;
@@ -132,6 +132,7 @@ body {
     pointer-events: none;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-indent: 3em;
 }
 
 .idea {
@@ -150,6 +151,7 @@ body {
     text-shadow: none;
     pointer-events: none;
     padding-bottom: 10px;
+    text-indent: 3em;
 }
 
 .us .col-md-5 {
