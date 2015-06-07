@@ -98,26 +98,9 @@ body {
 }
 
 
-.jumbotron .container {
-    background: rgba(0, 0, 0, 0);
-    position: relative;
-    top: 30px;
-}
-
-.jumbotron h1 {
-    color: #ffffff;
-    font-size: 50px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    pointer-events: none;
-    text-align: center;
-}
-
 .words h2, h3 {
     font-size: 35px;
     color: #ffffff;
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     pointer-events: none;
@@ -125,6 +108,7 @@ body {
 }
 
 .words h3 {
+    text-decoration: none;
     font-size: 25px;
 }
 
