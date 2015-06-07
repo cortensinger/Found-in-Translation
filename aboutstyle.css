@@ -153,6 +153,7 @@ body {
     text-shadow: none;
     pointer-events: none;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .us .col-md-5 {
@@ -167,5 +168,5 @@ body {
 }
 
 .nothing {
-    height: 100px;
+    height: 60px;
 }
