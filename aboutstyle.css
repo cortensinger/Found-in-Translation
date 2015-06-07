@@ -161,6 +161,7 @@ body {
 
 .us .col-md-5 img.face {
     width: 40%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
