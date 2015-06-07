@@ -1,6 +1,6 @@
 
 body {
-     background-image: url('../pattern.png') !important;
+     background-image: url('http://i.imgur.com/E9cgJwr.jpg') !important;
      background-repeat: no-repeat;
      background-size: cover; 
 -webkit-background-size: cover;
@@ -100,7 +100,7 @@ body {
 
 .jumbotron {
     background-color: transparent;
-    background: rgba(0, 0, 0, 0.5) url('http://teaching.paulos.net/cs160_FL2015/assets/images/pattern.png');
+    background: rgba(0, 0, 0, 0.5) url('../pattern.png');
     position: relative;
     padding-top: 60px;
 }
