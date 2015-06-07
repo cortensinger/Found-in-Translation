@@ -1,6 +1,6 @@
 
 body {
-     background-image:url('http://www.feelgrafix.com/data_images/out/4/766771-chile-wallpaper.jpg') !important;
+     background-image: url('http://i.imgur.com/E9cgJwr.jpg') !important;
      background-repeat: no-repeat;
      background-size: cover; 
 -webkit-background-size: cover;
@@ -160,4 +160,8 @@ body {
 
 .us .col-md-6 {
      border-bottom: 1px solid #000000;
+}
+
+.nothing {
+    height: 100px;
 }
