@@ -126,7 +126,7 @@ body {
 
 .words .idea p {
     font-size: 16px;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: 200;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
