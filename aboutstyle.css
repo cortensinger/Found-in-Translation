@@ -107,6 +107,7 @@ body {
 
 .words h1 {
     padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .words h1, h3 {
@@ -130,13 +131,12 @@ body {
     cursor: normal;
     text-shadow: none;
     pointer-events: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
     text-indent: 3em;
 }
 
 .idea {
-    border-bottom: 1px solid #000000;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #000000;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -151,11 +151,11 @@ body {
     text-shadow: none;
     pointer-events: none;
     padding-bottom: 10px;
-    text-indent: 3em;
+    text-indent: 2em;
 }
 
 .us .col-md-5 {
-     border-bottom: 1px solid #000000;
+     border-bottom: 2px solid #000000;
 }
 
 .us .col-md-5 img.face {
