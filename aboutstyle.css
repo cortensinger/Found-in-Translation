@@ -159,6 +159,11 @@ body {
      border-bottom: 1px solid #000000;
 }
 
+.us .col-md-5 img{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .nothing {
     height: 100px;
 }
