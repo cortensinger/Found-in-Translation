@@ -194,6 +194,55 @@ html, body {
     border: 1px solid #393c3d;
 }
 
+.odcast .wrapper1 {
+    display: block;
+    height: 720px;
+    width: 960px;
+    margin: auto;
+}
+
+.odcast .container1 {
+    background-color: #000000;
+    display: block;
+    float: left;
+    height: 720px;
+    width: 960px;
+    overflow: auto;
+}
+
+.odcast .slider1 {
+    display: block;
+    float: left;
+    height: 720px;
+    width: 960px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.odcast #prev1 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    float: left;
+    height: 720px;
+    width: 100px;
+    position: relative;
+    z-index: 99;
+}
+
+.odcast #next1 {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    float: right;
+    height: 720px;
+    width: 100px;
+    position: relative;
+    z-index: 99;
+}
+
 .nothing {
     height: 30px;
 }
