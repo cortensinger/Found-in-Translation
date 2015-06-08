@@ -110,14 +110,14 @@ html, body {
     color: #000000;
     font-size: 48px;
     text-decoration: none;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Julius Sans One', cursive;
     font-weight: bold;
     pointer-events: none;
 }
 
 .jumbotron p {
     font-size: 18px;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Julius Sans One', cursive;
     color: #000000;
     padding: 3px;
     cursor: normal;
