@@ -204,11 +204,11 @@ html, body {
 
 .odcast .wrapper {
     display: block;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     margin: auto;
 }
-
+q
 .odcast .imgcontainer {
     background-color: #d3d3d3;
     display: block;
