@@ -213,8 +213,8 @@ q
     background-color: #d3d3d3;
     display: block;
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     overflow: auto;
 }
 
@@ -229,40 +229,40 @@ q
 .odcast .slider2 {
     display: block;
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     overflow: hidden;
     position: absolute;
 }
 .odcast .slider3 {
     display: block;
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     overflow: hidden;
     position: absolute;
 }
 .odcast .slider4 {
     display: block;
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     overflow: hidden;
     position: absolute;
 }
 .odcast .slider5 {
     display: block;
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     overflow: hidden;
     position: absolute;
 }
 .odcast .slider6 {
     display: block;
     float: left;
-    height: 600px;
-    width: 800px;
+    height: 60%;
+    width: 80%;
     overflow: hidden;
     position: absolute;
 }
@@ -273,8 +273,8 @@ q
     background-position: center center;
     display: block;
     float: left;
-    height: 600px;
-    width: 100px;
+    height: 60%;
+    width: 10%;
     position: relative;
     z-index: 99;
 }
@@ -285,8 +285,8 @@ q
     background-position: center center;
     display: block;
     float: right;
-    height: 600px;
-    width: 100px;
+    height: 60%;
+    width: 10%;
     position: relative;
     z-index: 99;
 }
