@@ -2,7 +2,7 @@ var main = function() {
     $('.slider1').cycle({ 
 	fx:     'fade', 
 	speed:  'slow',
-	timeout: 1000,
+	timeout: none,
 	next:   '#next1', 
 	prev:   '#prev1' 
     });
