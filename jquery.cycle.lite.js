@@ -187,6 +187,21 @@ $.fn.cycle.custom = function(curr, next, opts, cb) {
         fn();
 };
 
+$.fn.cycle.commonReset = function(curr,next,opts,w,h,rev) {
+	$(opts.elements).not(curr).hide();
+	if (typeof opts.cssBefore.opacity == 'undefined')
+		opts.cssBefore.opacity = 1;
+	opts.cssBefore.display = 'block';
+	if (opts.slideResize && w !== false && next.cycleW > 0)
+		opts.cssBefore.width = next.cycleW;
+	if (opts.slideResize && h !== false && next.cycleH > 0)
+		opts.cssBefore.height = next.cycleH;
+	opts.cssAfter = opts.cssAfter || {};
+	opts.cssAfter.display = 'none';
+	$(curr).css('zIndex',opts.slideCount + (rev === true ? 1 : 0));
+	$(next).css('zIndex',opts.slideCount + (rev === true ? 0 : 1));
+};
+
 $.fn.cycle.transitions = {
     fade: function($cont, $slides, opts) {
         $slides.not(':eq(0)').hide();
