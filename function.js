@@ -52,7 +52,7 @@ var main = function() {
 
 function onAfter(curr,next,opts) {
 	var caption = 'Image ' + (opts.currSlide + 1) + ' of ' + opts.slideCount;
-	$('.row #caption').html(caption);
+	$('#caption').html(caption);
 }
 
 
