@@ -8,7 +8,7 @@ var main = function() {
     });
     
     $('.slider2').cycle({ 
-	fx:     'fade', 
+	fx:     'scrollHorz', 
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next2', 
@@ -16,7 +16,7 @@ var main = function() {
     });
 
     $('.slider3').cycle({ 
-	fx:     'fade', 
+	fx:     'scrollHorz', 
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next3', 
@@ -24,7 +24,7 @@ var main = function() {
     });
 
     $('.slider4').cycle({ 
-	fx:     'fade', 
+	fx:     'scrollHorz', 
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next4', 
@@ -32,7 +32,7 @@ var main = function() {
     });
 
     $('.slider5').cycle({ 
-	fx:     'fade', 
+	fx:     'scrollHorz', 
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next5', 
@@ -40,7 +40,7 @@ var main = function() {
     });
 
     $('.slider6').cycle({ 
-	fx:     'fade', 
+	fx:     'scrollHorz', 
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next6', 
