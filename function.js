@@ -4,7 +4,8 @@ var main = function() {
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next1', 
-	prev:   '#prev1' 
+	prev:   '#prev1',
+	after:   onAfter
     });
     
     $('.slider2').cycle({ 
@@ -48,6 +49,12 @@ var main = function() {
     });
 
 };
+
+function onAfter(curr,next,opts) {
+	var caption = 'Image ' + (opts.currSlide + 1) + ' of ' + opts.slideCount;
+	$('#caption').html(caption);
+}
+
 
 var helper = function() {
     $('#next1').click();
