@@ -3,7 +3,7 @@ var main = function() {
 	fx:     'fade', 
 	speed:  'slow',
 	delay: -2000,
-	timeout: 0,
+	timeout: 1000,
 	next:   '#next1', 
 	prev:   '#prev1' 
     });
