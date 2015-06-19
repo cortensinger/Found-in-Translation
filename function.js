@@ -11,6 +11,7 @@ var main = function() {
     $('.slider2').cycle({ 
 	fx:     'fade', 
 	speed:  'slow',
+	delay: -100001,
 	timeout: 0,
 	next:   '#next2', 
 	prev:   '#prev2' 
@@ -19,6 +20,7 @@ var main = function() {
     $('.slider3').cycle({ 
 	fx:     'fade', 
 	speed:  'slow',
+	delay: -100001,
 	timeout: 0,
 	next:   '#next3', 
 	prev:   '#prev3' 
@@ -27,6 +29,7 @@ var main = function() {
     $('.slider4').cycle({ 
 	fx:     'fade', 
 	speed:  'slow',
+	delay: -100001,
 	timeout: 0,
 	next:   '#next4', 
 	prev:   '#prev4' 
@@ -35,6 +38,7 @@ var main = function() {
     $('.slider5').cycle({ 
 	fx:     'fade', 
 	speed:  'slow',
+	delay: -100001,
 	timeout: 0,
 	next:   '#next5', 
 	prev:   '#prev5' 
@@ -43,6 +47,7 @@ var main = function() {
     $('.slider6').cycle({ 
 	fx:     'fade', 
 	speed:  'slow',
+	delay: -100001,
 	timeout: 0,
 	next:   '#next6', 
 	prev:   '#prev6' 
