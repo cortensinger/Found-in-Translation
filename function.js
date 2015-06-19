@@ -55,7 +55,14 @@ var main = function() {
 
 };
 
+var helper = function() {
+    $('#next1').click();
+    $('#next2').click();
+    $('#next3').click();
+    $('#next4').click();
+    $('#next5').click();
+    $('#next6').click();
+};
+
 $(document).ready(main);
-$(document).ready(function(){
-   $('#next1').click();
-  });
+$(document).ready(helper);
