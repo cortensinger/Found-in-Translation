@@ -57,5 +57,5 @@ var main = function() {
 
 $(document).ready(main);
 $(document).ready(function(){
-   $('.slider1').click();
+   $('#next1').click();
   });
