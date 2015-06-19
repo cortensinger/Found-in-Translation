@@ -1,6 +1,6 @@
 var main = function() {
     $('.slider1').cycle({ 
-	fx:     'scrollHorz', 
+	fx:     'scrollHoriz', 
 	speed:  'slow',
 	timeout: 0,
 	next:   '#next1', 
