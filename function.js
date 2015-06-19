@@ -12,7 +12,7 @@ var main = function() {
 	fx:     'fade', 
 	speed:  'slow',
 	delay: -100001,
-	timeout: 0,
+	timeout: 100000,
 	next:   '#next2', 
 	prev:   '#prev2' 
     });
@@ -21,7 +21,7 @@ var main = function() {
 	fx:     'fade', 
 	speed:  'slow',
 	delay: -100001,
-	timeout: 0,
+	timeout: 100000,
 	next:   '#next3', 
 	prev:   '#prev3' 
     });
@@ -30,7 +30,7 @@ var main = function() {
 	fx:     'fade', 
 	speed:  'slow',
 	delay: -100001,
-	timeout: 0,
+	timeout: 100000,
 	next:   '#next4', 
 	prev:   '#prev4' 
     });
@@ -39,7 +39,7 @@ var main = function() {
 	fx:     'fade', 
 	speed:  'slow',
 	delay: -100001,
-	timeout: 0,
+	timeout: 100000,
 	next:   '#next5', 
 	prev:   '#prev5' 
     });
@@ -48,7 +48,7 @@ var main = function() {
 	fx:     'fade', 
 	speed:  'slow',
 	delay: -100001,
-	timeout: 0,
+	timeout: 100000,
 	next:   '#next6', 
 	prev:   '#prev6' 
     });
