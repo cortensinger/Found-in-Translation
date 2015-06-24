@@ -205,7 +205,7 @@ html, body {
 .odcast .wrapper {
     display: block;
     height: 600px;
-    width: 800px;
+    width: 1073px;
     margin: auto;
 }
 q
@@ -214,7 +214,7 @@ q
     display: block;
     float: left;
     height: 600px;
-    width: 800px;
+    width: 1073px;
     overflow: auto;
 }
 
@@ -222,7 +222,7 @@ q
     display: block;
     float: left;
     height: 600px;
-    width: 800px;
+    width: 1073px;
     overflow: hidden;
     position: absolute;
 }
