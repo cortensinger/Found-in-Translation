@@ -94,7 +94,7 @@ html, body {
 }
 
 .jumbotron {
-    background-image:url('../Patagonia.jpg');
+    background-image: url('http://topwalls.net/wp-content/uploads/2012/08/Torres-del-Paine-Chile.jpg');
     height: 95%;
     background-repeat: no-repeat;
     background-size: cover;
