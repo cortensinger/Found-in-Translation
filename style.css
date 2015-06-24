@@ -204,8 +204,8 @@ html, body {
 
 .odcast .wrapper {
     display: block;
-    height: 600px;
-    width: 1073px;
+    height: 537px;
+    width: 960px;
     margin: auto;
 }
 q
@@ -213,8 +213,8 @@ q
     background-color: #d3d3d3;
     display: block;
     float: left;
-    height: 600px;
-    width: 1073px;
+    height: 537px;
+    width: 960px;
     overflow: auto;
 }
 
@@ -229,8 +229,8 @@ q
 .odcast .slider2 {
     display: block;
     float: left;
-    height: 600px;
-    width: 1073px;
+    height: 537px;
+    width: 960px;
     overflow: hidden;
     position: absolute;
 }
@@ -273,7 +273,7 @@ q
     background-position: center center;
     display: block;
     float: left;
-    height: 600px;
+    height: 537px;
     width: 100px;
     position: relative;
     z-index: 99;
@@ -285,7 +285,7 @@ q
     background-position: center center;
     display: block;
     float: right;
-    height: 600px;
+    height: 537px;
     width: 100px;
     position: relative;
     z-index: 99;
